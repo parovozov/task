@@ -24,7 +24,9 @@ class EditController extends MainController
 				}
 			}
 			if(!$flagerror){
-				$this->model->EditTask($chekdata);
+				if($this->model->IsLogin()){ 
+					$this->model->EditTask($chekdata);
+				}
 				header("Location: /");
 			} 
 			$this->view->SetVarError($chekdata, $flagerror);
