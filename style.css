@@ -1,0 +1,143 @@
+html, body
+{
+	margin: 0px;
+	padding: 0px;
+}
+html
+{
+	background-color: #444;
+}
+body
+{
+	display: block;
+	position: absolute;
+	left: 50%;
+	width: 80%;
+	transform: translate(-50%, 0px);
+	background-color: #eee;
+	height: auto;
+	min-height: 100%;
+	padding: 20px;
+	min-width: 750px;
+}
+.error
+{
+	border: solid red 1px;
+}
+.trdiv
+{
+	display: table;
+	width: 100%;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+.trdiv div
+{
+	display: table-cell;
+	position: relative;
+	border-right: 1px solid #ccc;
+	padding: 3px;
+	
+}
+.trdiv div:last-child
+{
+	border-right: 0px;
+	overflow: hidden;
+}
+.trdiv div .aedit
+{
+	display: block;
+	width: 50px;
+	height: 20px;
+	position:absolute;
+	top: 0px;
+	right: -51px;
+	border: 1px solid #aaa;
+	background-color:#0B006C;
+	border-radius: 2px;	
+	line-height: 20px;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;		
+	transition: right .2s linear;
+}
+.trdiv:hover > div:last-child .aedit
+{
+	right: 1px;
+	transition: right .2s linear;
+	
+}
+.headerrow
+{
+	font-size: 12px;
+	font-weight: bold;
+}
+.taskrow
+{
+	font-size: 14px;
+}
+.headerrow a
+{
+	font-weight: bold;
+	font-size: 16px;
+}
+.trdiv div:nth-child(1)
+{
+	width: 40%;
+	min-width: 200px;
+}
+.trdiv div:nth-child(2)
+{
+	width: 20%;
+	min-width: 150px;
+}
+.trdiv div:nth-child(3)
+{
+	width: 20%;
+	min-width: 180px;
+}
+.trdiv div:nth-child(4)
+{
+	width: 10%;
+	min-width: 120px;
+}
+.trdiv div:nth-child(5)
+{
+	width: 10%;
+	min-width: 60px;
+}
+.navigationpage
+{
+	margin-top: 20px;
+}
+.navigationpage span, .navigationpage a
+{
+	font-size: 18px;
+	padding: 5px;
+	border: 1px solid #888;
+	margin: 1px;
+}
+.navigationpage .link_active
+{
+	padding: 8px;
+}
+.baseadddiv input
+{
+	width: 300px;
+	height: 40px;
+	outline: none;
+}
+.baseadddiv textarea
+{
+	width: 300px;
+	height: 200px;
+	outline: none;
+}
+.loginbutton
+{
+	display: block;
+	width: 50px;
+	margin: 0px 0px 10px 0px;
+	padding: 10px;
+	border: 1px solid #ddd;
+}

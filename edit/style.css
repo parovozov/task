@@ -1,0 +1,47 @@
+html, body
+{
+	margin: 0px;
+	padding: 0px;
+}
+html
+{
+	background-color: #444;
+}
+body
+{
+	display: block;
+	position: absolute;
+	left: 50%;
+	width: 80%;
+	transform: translate(-50%, 0px);
+	background-color: #eee;
+	height: auto;
+	min-height: 100%;
+	padding: 20px;
+	min-width: 750px;
+}
+.error
+{
+	border: solid red 1px;
+}
+
+.baseadddiv input
+{
+	width: 300px;
+	height: 40px;
+	outline: none;
+}
+.baseadddiv textarea
+{
+	width: 300px;
+	height: 200px;
+	outline: none;
+}
+.loginbutton
+{
+	display: block;
+	width: 50px;
+	margin: 0px 0px 10px 0px;
+	padding: 10px;
+	border: 1px solid #ddd;
+}
